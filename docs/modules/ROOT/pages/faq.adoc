@@ -1,0 +1,7 @@
+== FAQ
+
+* What is Antora?
+* How Antora works?
+
+---
+xref:index.adoc[Return Home]

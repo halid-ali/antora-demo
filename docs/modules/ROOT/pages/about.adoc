@@ -1,0 +1,6 @@
+== About Antora
+
+The multi-repository documentation site generator for tech writers who  writing in AsciiDoc.
+
+---
+xref:index.adoc[Return Home]
