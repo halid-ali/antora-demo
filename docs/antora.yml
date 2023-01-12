@@ -1,0 +1,4 @@
+name: antora-demo
+version: v1.0
+nav:
+- modules/ROOT/nav.adoc

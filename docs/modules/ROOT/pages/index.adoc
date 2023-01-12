@@ -1,0 +1,3 @@
+== Welcome Antora (v1.0)
+
+The v1.0 contains only an index page without any internal or external links and styling.
