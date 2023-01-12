@@ -7,6 +7,8 @@ content:
   - url: https://github.com/halid-ali/antora-demo.git
     branches: [version-1, version-2]
     start_path: docs
+  - url: ./
+    start_path: docs
 
 ui:
   bundle:
