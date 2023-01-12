@@ -2,5 +2,6 @@
 
 The multi-repository documentation site generator for tech writers who  writing in AsciiDoc.
 
+include::partial$test.adoc[]
 ---
 xref:index.adoc[Return Home]

@@ -1,0 +1,4 @@
+[NOTE]
+====
+Test content of the partial file.
+====

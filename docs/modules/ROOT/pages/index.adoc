@@ -1,4 +1,4 @@
-== Welcome Antora (v2.0)
+== Welcome Antora (v3.0)
 
 In v2, you can find some xref:#[links] and ##styling##.
 
@@ -9,3 +9,5 @@ Internal Links::
 External Links::
 * https://www.google.com[Google] _(search engine)_
 * https://www.antora.org[Antora] _(official Antora webpage)_
+
+include::partial$test.adoc[]
