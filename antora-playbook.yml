@@ -5,7 +5,7 @@ site:
 content:
   sources:
   - url: https://github.com/halid-ali/antora-demo.git
-    branches: [version-1]
+    branches: [version-1, version-2]
     start_path: docs
 
 ui:
