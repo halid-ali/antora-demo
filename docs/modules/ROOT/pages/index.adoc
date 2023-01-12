@@ -1,4 +1,4 @@
-= Welcome Antora (v2.0)
+== Welcome Antora (v2.0)
 
 In v2, you can find some xref:#[links] and ##styling##.
 
