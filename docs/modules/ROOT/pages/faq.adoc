@@ -1,7 +1,22 @@
-== FAQ
+= FAQ
 
-* What is Antora?
-* How Antora works?
+== What is Antora?
 
----
-xref:index.adoc[Return Home]
+With Antora, you manage docs as code. That means your documentation process benefits from the same practices used to produce successful software.
+
+Some of these practices include:
+
+* Storing content in a version control system.
+* Separating content, configuration, and presentation.
+* Leveraging automation for compilation, validation, verification, and publishing.
+* Reusing shared materials (DRY).
+
+Antora helps you incorporate these practices into your documentation workflow. As a result, your documentation is much easier to manage, maintain, and enhance.
+
+== How Antora works
+
+Antora’s site generator handles all aspects of creating a documentation site, from fetching and aggregating to converting and arranging the content to publishing the files of the generated site. This page describes that process in detail.
+
+The default pipeline is opinionated to get you started as quickly as possible. But understand that Antora features a modular, open architecture. That means this architecture can accommodate specialized use cases by allowing custom Antora components, such as a validators, to be inserted into the pipeline at strategic points as needed. This page focuses on the core, built-in Antora components and capabilities in Antora.
+
+include::partial$returnhome.adoc[]

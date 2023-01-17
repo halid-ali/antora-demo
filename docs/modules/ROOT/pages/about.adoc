@@ -1,6 +1,10 @@
-== About Antora
+= About Antora
+Halid Ali <halid.ali@ul.com>
+:author: Halid Ali
+:email: halid.ali@ul.com
+:description: A description of the page for HTML meta tag
+:keywords: antora, works, about
 
 The multi-repository documentation site generator for tech writers who  writing in AsciiDoc.
 
----
-xref:index.adoc[Return Home]
+include::partial$returnhome.adoc[]

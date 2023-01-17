@@ -1,6 +1,8 @@
-== Welcome Antora (v2.0)
+= Welcome Antora (v3.0)
 
-In v2, you can find some xref:#[links] and ##styling##.
+In v3, we have standart pages with titles and sections, and some HTML meta tags.
+
+== Content
 
 Internal Links::
 * xref:faq.adoc[FAQ]
