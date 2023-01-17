@@ -1,3 +1,70 @@
 = Database
 
 Details about the database structure.
+
+== Users Database Structure
+
+Basic structure of the users table.
+
+[%header, cols="1,2,3,1"]
+|===
+|id
+|username
+|email
+|approved
+
+|1
+|halid
+|halid.ali@ul.com
+^|✅
+
+|2
+|ali
+|test.user@ul.com
+^|❌
+|===
+
+== Querying Data from Database
+
+A simple code block for a SQL query.
+
+=== Structured Query Language
+
+[,sql]
+----
+SELECT * FROM db.users
+----
+
+=== Comprehension Query Language
+
+[,c#]
+----
+var query = from u in db.Users
+            where u.Approved == true
+            orderby u.Id
+            select u;
+----
+
+=== Extension Query Language
+
+[%linenums,c#]
+----
+var query = _db.Users
+            .Where(u => u.Approved == true)
+            .OrderBy(u => u.Id)
+            .Take(10);
+----
+
+== Output of the GetUsers Request
+
+[,json]
+----
+[
+    {
+        "id": 1,
+        "username": "halid",
+        "email": "halid.ali@ul.com",
+        "approved": true
+    }
+]
+----
