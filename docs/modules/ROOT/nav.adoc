@@ -1,0 +1,5 @@
+* Specification
+include::concept:partial$concept-nav.adoc[]
+include::domain:partial$domain-nav.adoc[]
+* Technical
+include::persistence:partial$persistence-nav.adoc[]
