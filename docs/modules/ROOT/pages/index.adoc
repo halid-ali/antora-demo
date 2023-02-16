@@ -1,6 +1,6 @@
 = Welcome Antora (v3.0)
 
-In v3, we have standart pages with titles and sections, and some HTML meta tags.
+In v3, we have standart pages with titles and sections, and some HTML meta tags. This change is made in vscode.
 
 == Content
 
